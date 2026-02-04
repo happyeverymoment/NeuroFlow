@@ -1,4 +1,4 @@
-# NeuroFlow: EEG-to-Image Generative and Retrieval Framework
+# NeuroFlow
 
 ## Abstract
 NeuroFlow is a reproducible research codebase developed for EEG-to-image generation, retrieval, and analysis. The project implements a two-task pipeline combining EEG representation learning and diffusion-based image generation driven by neural signals. The repository contains training and evaluation code, visualization tools, and processed datasets to reproduce the main results in the associated manuscript. The file `pipeline.jpg` shows the overall framework; other images in the repository are visualization results used in the paper.
@@ -91,5 +91,6 @@ Trained models, logs, and generated figures are stored under `Task1/outputs/` an
 - Training details (batch size, optimizer, learning rate schedules) are defined inside each task script and configurable at the top of the files.
 - Seed and dataset splits: leave-one-subject-out configuration is implemented in `Task1/eegdatasets_leaveone.py` and `Task2/eegdatasets_leaveone.py`.
 - Evaluation metrics: retrieval and generation metrics are implemented in `Task1/utils/metrics.py` and `Task2/Generation_metrics_sub8_GCN_notebook_woNSR.ipynb`.
+
 
 
