@@ -1,0 +1,8 @@
+{
+    "data_path": "/THINGS/Preprocessed_data_250Hz",
+    "img_directory_training": "/THINGS/images_set/training_images",
+    
+    "img_directory_test": "/Generation/generated_imgs",
+    "features_path":"/THINGS/CLIP"
+}
+
