@@ -1,7 +1,7 @@
 # NeuroFlow
 
 <p align="center">
-  <img src="pipline.jpg" width="800" alt="项目示意图">
+  <img src="Pipline.JPG" width="800" alt="项目示意图">
 </p>
 
 ## Abstract
@@ -90,6 +90,7 @@ Trained models and logs are stored under `Task1/outputs/` organized by experimen
 ## Experimental Details (for paper reproducibility)
 - Training details (batch size, optimizer, learning rate schedules) are defined inside each task script and configurable at the files.
 - Seed and dataset splits: leave-one-subject-out configuration is implemented in `Task1/eegdatasets_leaveone.py` and `Task2/eegdatasets_leaveone.py`.
+
 
 
 
