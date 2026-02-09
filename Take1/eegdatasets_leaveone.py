@@ -415,8 +415,6 @@ class EEGDataset():
         return self.data.shape[0]  # or self.labels.shape[0] which should be the same
 
 if __name__ == "__main__":
-    # Instantiate the dataset and dataloader
-    # data_path = "/home/ldy/Workspace/THINGS/EEG/osfstorage-archive"  # Replace with the path to your data
     data_path = data_path# 使用之前定义的数据路径
     # 创建训练和测试数据集实例
     train_dataset = EEGDataset(data_path, subjects = ['sub-01'], train=True)    
@@ -440,4 +438,5 @@ if __name__ == "__main__":
             
     
         
+
     
