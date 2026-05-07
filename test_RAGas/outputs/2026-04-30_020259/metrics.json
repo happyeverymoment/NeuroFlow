@@ -1,0 +1,123 @@
+{
+  "summary": {
+    "answer_correctness": {
+      "mean": 0.5750974257710222,
+      "std": 0.2734980676381758,
+      "p50": 0.717863424902442,
+      "p90": 0.8506747269076673
+    },
+    "answer_relevancy": {
+      "mean": 0.39059662608443585,
+      "std": 0.21170791833067332,
+      "p50": 0.43057149136046585,
+      "p90": 0.6859484462629581
+    },
+    "answer_similarity": {
+      "mean": 0.6340707279415846,
+      "std": 0.24824310445189146,
+      "p50": 0.6986022648878443,
+      "p90": 0.9152837228886762
+    }
+  },
+  "by_category": {
+    "产品模块": {
+      "answer_correctness": 0.717863424902442,
+      "answer_relevancy": 0.7313360119960133,
+      "answer_similarity": 0.8714536996097684
+    },
+    "任务": {
+      "answer_correctness": 0.8581319032688803,
+      "answer_relevancy": 0.5314646697180772,
+      "answer_similarity": 0.9619393777814038
+    },
+    "企业微信—会话功能": {
+      "answer_correctness": 0.7595324008994322,
+      "answer_relevancy": 0.5492338604818318,
+      "answer_similarity": 0.856311421779547
+    },
+    "企业微信—用户登录": {
+      "answer_correctness": 0.8208460214628152,
+      "answer_relevancy": 0.5207291354624771,
+      "answer_similarity": 0.9262412287084031
+    },
+    "企业微盘—文件管理": {
+      "answer_correctness": 0.4159002928095704,
+      "answer_relevancy": 0.4473630704097904,
+      "answer_similarity": 0.8064583140954245
+    },
+    "合同": {
+      "answer_correctness": 0.12171055363970307,
+      "answer_relevancy": 0.1997602348136336,
+      "answer_similarity": 0.48684221455881227
+    },
+    "合同模块": {
+      "answer_correctness": 0.26167074645838584,
+      "answer_relevancy": 0.19353465985048532,
+      "answer_similarity": 0.5012284403789979
+    },
+    "商机": {
+      "answer_correctness": 0.9430198020642152,
+      "answer_relevancy": 0.43057149136046585,
+      "answer_similarity": 0.7720792082568608
+    },
+    "定校书": {
+      "answer_correctness": 0.5394211791830895,
+      "answer_relevancy": 0.04880426231099764,
+      "answer_similarity": 0.35768471673235835
+    },
+    "工作记录": {
+      "answer_correctness": 0.737150566221961,
+      "answer_relevancy": 0.3548066483125664,
+      "answer_similarity": 0.6986022648878443
+    },
+    "录取服务": {
+      "answer_correctness": 0.11167247599718051,
+      "answer_relevancy": 0.1255296194043531,
+      "answer_similarity": 0.44668990398872205
+    },
+    "文书服务": {
+      "answer_correctness": 0.4076621692168375,
+      "answer_relevancy": 0.22449538226873447,
+      "answer_similarity": 0.43064867686734976
+    },
+    "签证服务": {
+      "answer_correctness": 0.7816849988987771,
+      "answer_relevancy": 0.7201270927082396,
+      "answer_similarity": 0.1267399955951082
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "answer_correctness": 0.5175258934320737,
+      "answer_relevancy": 0.30959872408283434,
+      "answer_similarity": 0.4201035737282946
+    },
+    "hard": {
+      "answer_correctness": 0.6824235131236772,
+      "answer_relevancy": 0.48631898561130577,
+      "answer_similarity": 0.8136730986586294
+    },
+    "medium": {
+      "answer_correctness": 0.11167247599718051,
+      "answer_relevancy": 0.1255296194043531,
+      "answer_similarity": 0.44668990398872205
+    }
+  },
+  "threshold_check": {
+    "answer_correctness": {
+      "threshold": 0.65,
+      "mean": 0.5750974257710222,
+      "pass": false
+    },
+    "answer_relevancy": {
+      "threshold": 0.75,
+      "mean": 0.39059662608443585,
+      "pass": false
+    },
+    "answer_similarity": {
+      "threshold": 0.7,
+      "mean": 0.6340707279415846,
+      "pass": false
+    }
+  }
+}

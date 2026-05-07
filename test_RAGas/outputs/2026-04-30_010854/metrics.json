@@ -1,0 +1,90 @@
+{
+  "summary": {
+    "faithfulness": {
+      "mean": 0.8259659529745003,
+      "std": 0.05336612602969412,
+      "p50": 0.8050058636738239,
+      "p90": 0.8895306895763122
+    },
+    "answer_relevancy": {
+      "mean": 0.8180220679053087,
+      "std": 0.09303658509786665,
+      "p50": 0.8181381095118757,
+      "p90": 0.9256765099657801
+    },
+    "context_precision": {
+      "mean": 0.72996256605285,
+      "std": 0.056375518306419674,
+      "p50": 0.7046594937009009,
+      "p90": 0.7980181944772647
+    },
+    "context_recall": {
+      "mean": 0.7672111581552883,
+      "std": 0.0769124110173173,
+      "p50": 0.7971341997628685,
+      "p90": 0.8447684278404061
+    }
+  },
+  "by_category": {
+    "事实问答": {
+      "faithfulness": 0.7550021510445334,
+      "answer_relevancy": 0.9498102789573567,
+      "context_precision": 0.7763388220258406,
+      "context_recall": 0.7095189679509881
+    },
+    "故障处理": {
+      "faithfulness": 0.7946421476297645,
+      "answer_relevancy": 0.8181381095118757,
+      "context_precision": 0.6997094126716621,
+      "context_recall": 0.8685462233030132
+    },
+    "流程问答": {
+      "faithfulness": 0.8600618220660676,
+      "answer_relevancy": 0.7740539836857704,
+      "context_precision": 0.7245881985222491,
+      "context_recall": 0.7526635331741468
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "faithfulness": 0.816443755368055,
+      "answer_relevancy": 0.919643067717886,
+      "context_precision": 0.7404991578633707,
+      "context_recall": 0.7533265838569283
+    },
+    "hard": {
+      "faithfulness": 0.8972942428328025,
+      "answer_relevancy": 0.7083432214426596,
+      "context_precision": 0.8124711094448809,
+      "context_recall": 0.6517546651130764
+    },
+    "medium": {
+      "faithfulness": 0.7998240056517942,
+      "answer_relevancy": 0.771240491324056,
+      "context_precision": 0.678171702546314,
+      "context_recall": 0.8388239789747542
+    }
+  },
+  "threshold_check": {
+    "faithfulness": {
+      "threshold": 0.75,
+      "mean": 0.8259659529745003,
+      "pass": true
+    },
+    "answer_relevancy": {
+      "threshold": 0.8,
+      "mean": 0.8180220679053087,
+      "pass": true
+    },
+    "context_precision": {
+      "threshold": 0.7,
+      "mean": 0.72996256605285,
+      "pass": true
+    },
+    "context_recall": {
+      "threshold": 0.7,
+      "mean": 0.7672111581552883,
+      "pass": true
+    }
+  }
+}

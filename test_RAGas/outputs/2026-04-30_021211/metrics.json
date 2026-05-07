@@ -1,0 +1,96 @@
+{
+  "summary": {
+    "answer_correctness": {
+      "mean": 0.5869757674490196,
+      "std": 0.3162935704079353,
+      "p50": 0.5890778554448868,
+      "p90": 0.9627592605477381
+    },
+    "answer_relevancy": {
+      "mean": 0.34987160401436673,
+      "std": 0.2578504967460442,
+      "p50": 0.43155868558890925,
+      "p90": 0.6814811070123657
+    }
+  },
+  "by_category": {
+    "产品模块": {
+      "answer_correctness": 0.967863424902442,
+      "answer_relevancy": 0.7313360119960133
+    },
+    "任务": {
+      "answer_correctness": 0.8742548834860941,
+      "answer_relevancy": 0.5326540498863591
+    },
+    "企业微信—会话功能": {
+      "answer_correctness": 0.5890778554448868,
+      "answer_relevancy": 0.5492338604818318
+    },
+    "企业微信—用户登录": {
+      "answer_correctness": 0.6839967925515174,
+      "answer_relevancy": 0.4120179942309196
+    },
+    "企业微盘—文件管理": {
+      "answer_correctness": 0.9973258929409885,
+      "answer_relevancy": 0.43155868558890925
+    },
+    "合同": {
+      "answer_correctness": 0.12171055363970307,
+      "answer_relevancy": 0.12936877309591488
+    },
+    "合同模块": {
+      "answer_correctness": 0.4467356815233209,
+      "answer_relevancy": 0.0
+    },
+    "商机": {
+      "answer_correctness": 0.9423426031289224,
+      "answer_relevancy": 0.46333926659407093
+    },
+    "定校书": {
+      "answer_correctness": 0.08942117918308959,
+      "answer_relevancy": 0.0
+    },
+    "工作记录": {
+      "answer_correctness": 0.5836031325901616,
+      "answer_relevancy": 0.47482337630741944
+    },
+    "录取服务": {
+      "answer_correctness": 0.11167247599718051,
+      "answer_relevancy": 0.1094559153603301
+    },
+    "文书服务": {
+      "answer_correctness": 0.44099550255017084,
+      "answer_relevancy": 0.0
+    },
+    "签证服务": {
+      "answer_correctness": 0.7816849988987771,
+      "answer_relevancy": 0.7145429186449991
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "answer_correctness": 0.4034830733723804,
+      "answer_relevancy": 0.2637470136096667
+    },
+    "hard": {
+      "answer_correctness": 0.7859424477111674,
+      "answer_relevancy": 0.44573426696830054
+    },
+    "medium": {
+      "answer_correctness": 0.11167247599718051,
+      "answer_relevancy": 0.1094559153603301
+    }
+  },
+  "threshold_check": {
+    "answer_correctness": {
+      "threshold": 0.65,
+      "mean": 0.5869757674490196,
+      "pass": false
+    },
+    "answer_relevancy": {
+      "threshold": 0.75,
+      "mean": 0.34987160401436673,
+      "pass": false
+    }
+  }
+}

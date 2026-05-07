@@ -1,0 +1,36 @@
+# Web 框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# LangChain 相关
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.2
+langchain-community>=0.0.20
+langchain-milvus>=0.1.0  # Milvus 向量存储集成
+langchain-text-splitters>=0.0.1  # 文本分割器
+langgraph>=0.0.20  # LangGraph 图工作流框架
+
+# 向量数据库
+pymilvus>=2.3.0
+
+# 数据处理
+pandas>=2.0.0
+openpyxl>=3.1.0  # Excel 文件支持
+
+# Embedding 模型
+dashscope>=1.14.0  # 阿里云 DashScope SDK（用于 embedding）
+
+# 数据验证
+pydantic>=2.0.0
+typing-extensions>=4.8.0
+
+# 其他依赖
+python-multipart>=0.0.6
+numpy>=1.24.0
+requests>=2.28.0  # signatory 模块 HTTP 请求
+
+# Web 加载器依赖
+beautifulsoup4>=4.12.0  # WebBaseLoader 需要
+lxml>=4.9.0  # HTML 解析器（可选但推荐）
+html5lib>=1.1  # HTML 解析器（可选）

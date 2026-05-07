@@ -1,0 +1,91 @@
+.remove('hidden', 'error', 'success');
+            
+            if (isError || errorMsg) {
+                container.classList.add('error');
+                title.textContent = '❌ 错误';
+            } else if (success) {
+                container.classList.add('success');
+                title.textContent = '✅ 成功';
+            } else {
+                title.textContent = 'ℹ️ 提示';
+            }
+
+            text.textContent = response;
+            container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // 显示已完成信息
+        function showCompletedInfo(stepInfo) {
+            const container = document.getElementById('completedInfo');
+            const list = document.getElementById('infoList');
+            
+            list.innerHTML = '';
+            
+            if (stepInfo.step1) {
+                addInfoItem('签约对象', `${stepInfo.step1.name}（${stepInfo.step1.id_card}）`);
+            }
+            if (stepInfo.step2) {
+                addInfoItem('合同编号', stepInfo.step2.contract_no);
+            }
+            if (stepInfo.step3) {
+                addInfoItem('签约类型', stepInfo.step3.contract_type);
+            }
+            if (stepInfo.step4) {
+                addInfoItem('签约日期', stepInfo.step4.sign_date);
+            }
+            if (stepInfo.step5) {
+                addInfoItem('授权状态', stepInfo.step5.authorization);
+            }
+
+            container.classList.remove('hidden');
+        }
+
+        // 添加信息项
+        function addInfoItem(label, value) {
+            const item = document.createElement('div');
+            item.className = 'info-item';
+            item.innerHTML = `
+                <span class="info-label">${label}：</span>
+                <span class="info-value">${value}</span>
+            `;
+            document.getElementById('infoList').appendChild(item);
+        }
+
+        // 重置表单
+        async function resetForm() {
+            if (sessionId) {
+                try {
+                    await fetch(`/api/sign-contract/${sessionId}`, {
+                        method: 'DELETE'
+                    });
+                } catch (error) {
+                    console.error('清除会话失败:', error);
+                }
+            }
+
+            sessionId = null;
+            currentStep = 1;
+            isComplete = false;
+
+            // 重置表单
+            document.getElementById('name').value = '';
+            document.getElementById('idCard').value = '';
+            document.getElementById('contractNo').value = '';
+            document.getElementById('contractType').value = '';
+            document.getElementById('signDate').value = '';
+            document.getElementById('authorization').value = '';
+
+            // 隐藏响应和汇总
+            document.getElementById('responseContainer').classList.add('hidden');
+            document.getElementById('completedInfo').classList.add('hidden');
+
+            // 重置进度
+            init();
+        }
+
+        // 页面加载时初始化
+        init();
+    </script>
+</body>
+</html>
+

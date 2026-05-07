@@ -1,0 +1,47 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8002,
+    "reload": false
+  },
+  "milvus": {
+    "host": "192.168.40.197",
+    "port": 19530,
+    "collection_name": "langgraph_rag_knowledge_base"
+  },
+  "embedding": {
+    "api_key": "sk-55d06e419aee4988944256ed77feef5e",
+    "model": "text-embedding-v4"
+  },
+  "llm": {
+    "api_key": "sk-55d06e419aee4988944256ed77feef5e",
+    "model": "qwen-turbo",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "temperature": 0.1
+  },
+  "faq": {
+    "data_dir": "rag_faqdata",
+    "file_path": "常见问题FAQ（0928更新）.xlsx"
+  },
+  "pdf": {
+    "data_dir": "rag_faqdata",
+    "files": ["LiSA服务端（新CRM）-合同和定校书.pdf"],
+    "parse_method": "auto",
+    "chunk_size": 900,
+    "chunk_overlap": 150,
+    "work_dir": ".mineru_output",
+    "magic_pdf_bin": "",
+    "add_batch_size": 32
+  },
+  "rag": {
+    "candidates_k_default": 5,
+    "summary_max_len": 120,
+    "similarity_threshold": 0.3
+  },
+  "cors": {
+    "allow_origins": ["*"],
+    "allow_credentials": true,
+    "allow_methods": ["*"],
+    "allow_headers": ["*"]
+  }
+}

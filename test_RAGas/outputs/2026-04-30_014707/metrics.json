@@ -1,0 +1,194 @@
+{
+  "summary": {
+    "faithfulness": {
+      "mean": 0.12466422466422467,
+      "std": 0.2628975267184346,
+      "p50": 0.0,
+      "p90": 0.19333333333333336
+    },
+    "answer_relevancy": {
+      "mean": 0.4121291948819285,
+      "std": 0.21369820749245097,
+      "p50": 0.41870115949850484,
+      "p90": 0.717281033819294
+    },
+    "context_precision": {
+      "mean": 0.6923076922384616,
+      "std": 0.46153846149230765,
+      "p50": 0.9999999999,
+      "p90": 0.9999999999
+    },
+    "context_recall": {
+      "mean": 0.23717948717948717,
+      "std": 0.36080121229410994,
+      "p50": 0.0,
+      "p90": 0.9000000000000004
+    },
+    "answer_correctness": {
+      "mean": 0.5798035814116582,
+      "std": 0.26350896288751335,
+      "p50": 0.44876951060818476,
+      "p90": 0.9209060599225857
+    },
+    "answer_similarity": {
+      "mean": 0.6308485753375628,
+      "std": 0.2459843780267388,
+      "p50": 0.6986022648878443,
+      "p90": 0.9151057766953237
+    }
+  },
+  "by_category": {
+    "产品模块": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.7313360119960133,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "answer_correctness": 0.957154621003754,
+      "answer_similarity": 0.8286184840150164
+    },
+    "任务": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5066562688968734,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.3333333333333333,
+      "answer_correctness": 0.7953075150650414,
+      "answer_similarity": 0.9707037444706921
+    },
+    "企业微信—会话功能": {
+      "faithfulness": 0.14285714285714285,
+      "answer_relevancy": 0.5492338604818318,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.25,
+      "answer_correctness": 0.7595324008994322,
+      "answer_similarity": 0.856311421779547
+    },
+    "企业微信—用户登录": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.6932374180014901,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.0,
+      "answer_correctness": 0.832451091356067,
+      "answer_similarity": 0.9298043654242678
+    },
+    "企业微盘—文件管理": {
+      "faithfulness": 0.2,
+      "answer_relevancy": 0.41870115949850484,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.0,
+      "answer_correctness": 0.44876951060818476,
+      "answer_similarity": 0.795078042432739
+    },
+    "合同": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.20337681638064006,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "answer_correctness": 0.37171055363970307,
+      "answer_similarity": 0.48684221455881227
+    },
+    "合同模块": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.27493747631994286,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.0,
+      "answer_correctness": 0.3560763408639802,
+      "answer_similarity": 0.5012284403789979
+    },
+    "商机": {
+      "faithfulness": 0.1111111111111111,
+      "answer_relevancy": 0.3938157008215695,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.0,
+      "answer_correctness": 0.9430198020642152,
+      "answer_similarity": 0.7720792082568608
+    },
+    "定校书": {
+      "faithfulness": 0.16666666666666666,
+      "answer_relevancy": 0.09814696604584626,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.5,
+      "answer_correctness": 0.08942117918308959,
+      "answer_similarity": 0.35768471673235835
+    },
+    "工作记录": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.43916640340058183,
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "answer_correctness": 0.7746505662219612,
+      "answer_similarity": 0.6986022648878443
+    },
+    "录取服务": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.19343261375399715,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "answer_correctness": 0.3616724759971805,
+      "answer_similarity": 0.44668990398872205
+    },
+    "文书服务": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.1323469000940348,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "answer_correctness": 0.44099550255017084,
+      "answer_similarity": 0.43064867686734976
+    },
+    "签证服务": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7232919377737449,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.0,
+      "answer_correctness": 0.4066849988987771,
+      "answer_similarity": 0.1267399955951082
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "faithfulness": 0.23333333333333334,
+      "answer_relevancy": 0.31926580473896954,
+      "context_precision": 0.59999999994,
+      "context_recall": 0.5,
+      "answer_correctness": 0.4166925600987404,
+      "answer_similarity": 0.4201035737282946
+    },
+    "hard": {
+      "faithfulness": 0.06485260770975057,
+      "answer_relevancy": 0.5097025565737464,
+      "context_precision": 0.8571428570571429,
+      "context_recall": 0.08333333333333333,
+      "answer_correctness": 0.7274730402658107,
+      "answer_similarity": 0.8076891009654459
+    },
+    "medium": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.19343261375399715,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "answer_correctness": 0.3616724759971805,
+      "answer_similarity": 0.44668990398872205
+    }
+  },
+  "threshold_check": {
+    "faithfulness": {
+      "threshold": 0.75,
+      "mean": 0.12466422466422467,
+      "pass": false
+    },
+    "answer_relevancy": {
+      "threshold": 0.8,
+      "mean": 0.4121291948819285,
+      "pass": false
+    },
+    "context_precision": {
+      "threshold": 0.7,
+      "mean": 0.6923076922384616,
+      "pass": false
+    },
+    "context_recall": {
+      "threshold": 0.7,
+      "mean": 0.23717948717948717,
+      "pass": false
+    }
+  }
+}

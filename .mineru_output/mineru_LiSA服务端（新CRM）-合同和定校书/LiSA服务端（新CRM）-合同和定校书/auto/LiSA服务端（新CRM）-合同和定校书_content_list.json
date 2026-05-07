@@ -1,0 +1,870 @@
+[
+    {
+        "type": "text",
+        "text": "LiSA服务端 （新CRM） ——合同和定校书",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "目录",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "一、合同启动分配；  \n二、合同指派策划顾问；  \n三、教育顾问如何为客户创建定校书并登记学校专业；  \n四、教育顾问如何为主课附属课程；  \n五、定校书审核；  \n六、客户签署定校书；  \n七、教育顾问如何作废定校书的院校专业；  \n八、教育顾问如何修改已确定的院校专业；  \n九、教育顾问如何填写转案必填信息；  \n十、教育顾问如何中止定校书的院校专业；  \n十一、教育顾问在定校时如何新建专业；  \n十二、定校书自动引入说明；  \n十三、分公司出纳如何审核定校书扫描件；",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "一、LiSA服务端 （新CRM）：合同启动分配",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1、教育顾问点击菜单 “待办—待启动合同”；",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2、点击“办理” 按钮，进入合同页面，如下图；",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三Q 服务待办〈待启动合同",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "EIC综合服务平台",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三服务待办 34",
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/1acd7ec93cc13975d3993022b6a36ea856c821a94278f79d441d808ff21c464c.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三 待启动合同",
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/03741684a74eb3abc3d0b285c21a3e9bd529b6443e070bc0b0aeb9333695d745.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三定校书",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三分配策划顾问",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三规划服务",
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/55f7e91123e78572e590972fcff4c14d92288155d2096848c5905b1471d36950.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三文书服务",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三APS服务",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三录取服务",
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/25edc47a25ebbcb3f0c9d649ef102a16d121cec3563aff9605cd251160ae8150.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "三列设置",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/ba3ac303adc40a5c0f603a84f3f528ae2f167bee11b4f9cf230b3eee6c5236d8.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "一、LiSA服务端 （新CRM）：合同启动分配",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3、点击“启动合同分配” 按钮，如下图；",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/7d84e267fefcf08fc83e690a007cb0214b0e0901cd7a340a4d9b45bf141dc3c6.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "一、LiSA服务端 （新CRM）：合同启动分配",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "启动合同检查",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4、启动合同分配时，需满足以下条件，如下图：",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.1客户信息已完善；",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.2定校书已上传扫描件或已填写专业意向；",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "说明：澳新必须要上传定校书扫描件才可启动分配；",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/727081a863d7d1e86227d36e073f3d3b65b7a22b758845380deece2864e683de.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "一、LiSA服务端 （新CRM）：合同启动分配",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "5、完善信息后，系统将进入“分配服务顾问主管”页面（如下图）。选择好服务顾问主管，点击确定即可。  \n说明：启动分配后，系统将自动创建服务分配服务顾问主管",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "数据给对应的服务顾问主管。注：录取数据需等定校书上传扫描件与填写转案必填信息后才会创建。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/eb274d2b6fab1a7f6e38516c6fbad85ad4feaa3ff955c1bf684cd430c9c6322a.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "二、LiSA服务端 （新CRM）：合同指派策划顾问",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "教育顾问签署合同后如合同需要转给策划顾问跟进合同服务的流程，则可以将合同提交给策划主管，再指派策划顾问。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1、进入合同详细页面，点击“提交策划主管”按钮，如下图；",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/5e28431dc4a98ec9ea7ede984d1cda4595a0d48749d7e24932a89154b467a860.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "二、LiSA服务端 （新CRM）：合同指派策划顾问",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "2、策划顾问主管进入LiSA“分配策划顾问”菜单，点击“办理”打开数据，如下图；",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3、点击“分配策划顾问”按钮，即可完成指派策划顾问操作，如下图。",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "images/0638ab8247adca97c75813e89d605204c71d50a11bfcc5c326fd7a6cab065e24.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "说明：指派策划顾问后，策划顾问主管任有“分配策划顾问”按钮，以便主管更换策划顾问。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "三、LiSA服务端（新CRM）：教育顾问如何为客户创建定校书",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "合同签约收款后，教育顾问即可为合同创建定校书。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1、用户进入合同详细页面，点击“创建定校书”按钮，如下图；",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/c00dfb8e13772c6e9a90a7b122896f8f9348d12eeca0a88728f37eaa739955be.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "说明：合同收款后即允许为客户创建定校书。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "三、LiSA服务端（新CRM）：教育顾问如何为客户创建定校书",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "2、系统跳转进入“定校书”页面，再点击“登记学校”按钮；",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "3、系统进入“选择学校与专业的登记” 页面，如下图；",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/109fa4e5383a210137e946a11c95d492ea8fc90dbb86b48876159b7f9b4a2739.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "定校书填写说明：",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "a) 院校只能查找该合同所属国家的学校；  \nb) 带\\*号的字段均为必填字段；  \nc) 澳新与英爱部的院校如有合作机构，则定校书选择该院校时， “是否合作机构”字段默认为“是”并不允许修改；  \nd) 美国部的院校如有合作机构，则定校书选择该院校时，“是否合作机构”字段默认为“是”，但允许修改，修改后需填写“不通过合作机构申请的原因”信息。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "三、LiSA服务端（新CRM）：教育顾问如何为客户创建定校书并登记学校专业",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "4、完成院校专业信息登记后，点击“保存”按钮，即可；",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "说明：如果想保存并进入填写转案必填信息则点击“ ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "保存&填与转案填信局",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "进行操作，即可。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "5、如需登记多所学校，则按步骤：1-4进行重复登记即可。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "说明：定校书未提交前，可以直接删除刚登记学校专业数据。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "四、LiSA服务端（新CRM）：教育顾问如何为主课登记附属课程",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "1、用户在定校书页面，找到需要登记附属课程的院校专业数据，并点击“添加课程”按钮，如下图；",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "已定校信息",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/b61e7064cfdd9dfc3d01891d1ffc5e0c4af1dc39671de5332627d841f9e5e738.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>序号</td><td>操作</td><td>操作类型院校状态 课程类型课程类型大类转案必填信息</td><td></td><td></td><td></td><td></td><td>意向学校</td><td></td><td></td><td>专业/课程入学时间是否合作机构申请 合作机构</td><td></td><td>佣金类型</td><td>不通过合作机构申请原因备注</td></tr><tr><td>1</td><td>查看 修改添加课程删除</td><td>新增</td><td>已创建</td><td>语言</td><td>医学</td><td>未填写</td><td>Harvard University测试 测试专业 2024-09-01</td><td></td><td></td><td>是</td><td>美国12full commission</td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "说明：定校书状态为“已创建”、“待客户签署（线下签署时）”、“定校书办结”时可添加附属课程。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "2、系统进入“登记学校（附属课程）”页面，即可进行选择学校与专业的信息，如下图；",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "images/e97f839a304188826f8e84cc1a700a2d68cb476d8d2669145361692c6709f564.jpg",
+        "img_caption": [
+            "登记学校 (附属课程)"
+        ],
+        "img_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "四、LiSA服务端 （新CRM）：教育顾问如何为主课登记附属课程",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3、完成信息登记后，点击保存按钮，附属课程即会显示在主课下，如下图；",
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "images/86657935751c171b905dea87ec0e9bab7db7656c8f79c5b1517f6ccb2ce1f106.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "说明：如需该主课下有多所附属课程，则可按步骤1-3进行重新操作即可。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "五、LiSA服务端 （新CRM）：定校书审核",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "教育顾问完成定校书的登记或修改后，是需要将定校书提交给教育顾问主管或院校专业维护人员进行审核。具体操作说明如下。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "1、教育顾问点击“提交定校书审核”按钮，选择“定校书模板” ，如下图；",
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/f06e05afc9b2b60536bb8687aadae6248629cb834e60fdffbd8fb00cbf98010d.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "五、LiSA服务端 （新CRM）：定校书审核",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "2、教育顾问主管或院校专业维护人员点击菜单“待办—定校书”，查找到需要审核的数据；",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "说明：如定校书中的院校或专业，在院校专业库中“定校是否PMC审核”字段为“是”时，则定校书需要先提交给院校专业库维护人员审核，审核后才可提交教育顾问主管审核。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "3、点击“办理”按钮，打开定校书页面进行审核，如下图；",
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "images/703bace9dbbe992ae7034802cad5ace6585c5e86fb8342496bb7e1bf3b58b19a.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "4、审核通过后，定校书将进入“待客户签署”的阶段。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "六、LiSA服务端 （新CRM）：客户签署定校书",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "定校书审核通过后将提交给客户进行签署，客户签署的方式分别：线上签署与线下签署。具体操作如下。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "线上签署方式：",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "1、定校书进入“待客户签署”节点，并签约方式为“线上签约”时，LiSA会自动将定校书推给i启德生成签署任务，并推送给客户进行签署；2、客户完成在线签署后，定校书扫签署件将自动回传至LiSA，并自动办结定校书数据。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "说明：客户在i启德在线签署的操作可参考",
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "images/58056bde1288ebcbcceadd034df56ea761af1a262811b5e98334bc872a3d8a8c.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "文件。在线签署的定校书无须审核定校书扫描件。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "六、LiSA服务端 （新CRM）：客户签署定校书",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "线下签署方式：",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "1、定校书进入“待客户签署”节点，并签约方式为“线下签约”时，LiSA会自动将定校书推给i启德进行盖章；  \n2、盖章后，教育顾问即可打开盖章后的定校书文档进行打印（如下图），线下与客户签署；",
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "images/ef5c7f4f9166293775960f1fe6999cbd7129d6b30a88a9ef9ee11166ed04ebd1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"2\">定校书文档</td><td colspan=\"4\">隐藏全部■</td></tr><tr><td>定校书模板:</td><td>亚洲，英爱，迪拜，澳新定校书模板，20181213新版.docX</td><td></td><td></td><td></td><td></td></tr><tr><td>类型</td><td>文件名</td><td>创建时间</td><td>更新时间</td><td>状态</td><td>操作</td></tr><tr><td>定校书文档</td><td>演示测试一_CeshiC2300577A_澳大利亚定校书文档.pdf</td><td>2023-12-23 13:41:13</td><td>2023-12-23 13:41:13</td><td>草稿</td><td>下载</td></tr><tr><td>定校书文档</td><td>演示测试一_CeshiC2300577A_澳大利亚定校书文档.pdf</td><td>2023-12-23 13:41:23</td><td>2023-12-23 13:41:23</td><td>已盖章</td><td>下载</td></tr></table></body></html>\n\n",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "3、线下签署后，需将签署后的定校书扫描件上传至LiSA中；",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "4、上传后，定校书扫描件将自动提交出纳进行审核，如下图。",
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "images/35449e27b1ab26a342dca57ce440c82ef4cc938c1c3d2ddef02ee6f7e30a08ed.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"10\">已定校信息</td><td colspan=\"5\">隐藏全部■</td></tr><tr><td>序</td><td>操作</td><td colspan=\"7\">操作类院校状课程类课程类型 转案必填</td><td colspan=\"4\">专业/课 是否合作机构合作机 入学时间</td><td colspan=\"2\">不通过合作机构申 佣金类型</td></tr><tr><td>号</td><td></td><td>型</td><td>态</td><td>型</td><td>大类</td><td>信息</td><td>意向学校 Harvard University 测试专 2023-03-</td><td>程</td><td></td><td>申请</td><td>构</td><td>full</td><td>请原因 注</td></tr><tr><td>1</td><td>查看 修改添加课程中止作废</td><td>修改</td><td>已审核</td><td>语言</td><td>医学</td><td>未填写</td><td>测试</td><td>业</td><td>01</td><td>否</td><td>commission</td><td>2023</td><td></td></tr><tr><td>1.1</td><td>修改作废</td><td>新增</td><td></td><td>已审核语言</td><td>医学</td><td>未填写</td><td>HarvardUniversty 测试专 2023-03-</td><td></td><td></td><td>否</td><td>commision</td><td>23</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>更换模板</td><td></td><td>上传扫描件</td><td></td><td>发起在线签署任务</td><td>登记学校</td><td></td><td>查看合同</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "说明：定校书的第一版扫描件将自动提交分公司出纳审核。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "七、LiSA服务端（新CRM）：教育顾问如何作废定校书的院校专业",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "作废定校书的前提条件：",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "1、定校书状态为：办结；  \n2、定校书未引入；  \n3、定校书已引入，但对应的录取数据未填写“申请材料寄出日期”；",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "1、用户找到打开满足条件的定校书数据，并点击“作废”按钮；  \n2、系统弹出“作废院校专业数据，需重新教育顾问主管审核”的确认框。确认后，定校书状态改为“定校书已创建”，需重新提交走审核流程 ；  \n3、审核通过后，即可生效；  \n说明：审核通过后，合同的定校书数量将自动加1；  \n审核通过后，对应的录取数据也将自动作废；",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "八、LiSA服务端（新CRM）：教育顾问如何修改定校书的院校专业",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "修改定校书的前提：",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "1、定校书状态为：待客户签署 （线下签署）、办结 ；",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "1、用户找到打开满足条件的定校书数据，并点击“修改”按钮，如下图；",
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "images/a373aa6725f6de5d75dae647e3e5a0560cfcc9aea0efaf2334f0c8793b1c9d99.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "院校专业数据，需重新教育顾问主管审核”的确认框。确认后，定校书状态改为“定校书已创建”，需重新提交走审核流程 ，如下图；",
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "images/34249d541814e6a39589322f061d1f1d8a8e2fac278484c513d9bb5cae1d6130.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "3、审核通过后，即可生效；",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "九、LiSA服务端（新CRM）：教育顾问如何填写转案必填信息操作说明：",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "1、用户找到打开定校书数据，并点击“转案必填信息”按钮；",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "2、系统进入“完善信息” 页面，即可填写，如下图；  \n说明：带\\*号都为必填字段。",
+        "page_idx": 19
+    },
+    {
+        "type": "table",
+        "img_path": "images/a7d00ba36995602665ad92fe7f51c4a8c082731abb215fad94b160344d73f94f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"8\">完善信息</td></tr><tr><td colspan=\"8\"></td></tr><tr><td>课程类型：</td><td colspan=\"3\">语言</td><td colspan=\"2\">课程类型大类：</td><td colspan=\"3\">医学</td></tr><tr><td>入学时间：</td><td colspan=\"3\">2023-03-01</td><td colspan=\"2\">*校区：</td><td colspan=\"3\">请输入校区..</td></tr><tr><td>*申请阶段：</td><td colspan=\"3\">请选择</td><td colspan=\"2\">*学院名称：</td><td colspan=\"3\">Harvard University测试</td></tr><tr><td>*截止日期网站链 接：</td><td colspan=\"3\">请输入截止日期网站链接.</td><td colspan=\"2\">*专业介绍的链 接：</td><td colspan=\"3\">请输入专业介绍的链接.</td></tr><tr><td>*专业课入学要求</td><td colspan=\"3\">请输入专业课入学要求链接.</td><td colspan=\"2\">*是否需要成绩单 认证：</td><td colspan=\"3\">请选择</td></tr><tr><td>链接： *成绩单认证机</td><td colspan=\"3\">请输入成绩单认证机构..</td><td colspan=\"2\">成绩单认证机构要 求链接：</td><td colspan=\"3\">请输入成绩单认证机构要求链接：</td></tr><tr><td>构：</td><td colspan=\"3\"></td><td colspan=\"2\"></td><td colspan=\"3\"></td></tr><tr><td colspan=\"10\">保存 取消</td></tr><tr><td colspan=\"10\">操作类院校状课程类 转案必填</td></tr><tr><td>操作 查看</td><td>型 态</td><td>型</td><td>课程类型 大类</td><td>信息</td><td colspan=\"2\">专业/课 意向学校 程</td><td colspan=\"2\">是否合作机构合作机 入学时间 申请 构</td><td>不 佣金类型</td></tr><tr><td>修改 添加课程 中止</td><td>修改</td><td>已创建语言</td><td>医学</td><td>未填写</td><td>Harvard University test2 测试</td><td colspan=\"2\">2023-03- 否 01</td><td>full commission</td></tr><tr><td>查看</td><td>新增</td><td>已审核语言</td><td>医学</td><td></td><td>Harvard University 测试专 2023-03-</td><td>否</td><td colspan=\"2\"> full </td></tr><tr><td>修改 中止 作废</td><td></td><td></td><td>未填写</td><td>测试</td><td colspan=\"2\">业 01</td><td>commission</td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "十、LiSA服务端（新CRM）：教育顾问如何中止定校书的院校专业中止院校专业前提：",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "1、定校书已引入；  \n2、定校书的院校专业信息对应的录取数据已填写了“申请材料寄出日期”；  \n操作说明：  \n1、用户找到打开定校书数据，并点击“中止”按钮；  \n2、中止后，院校专业对应的录取数据也将会自动中止，如下图；",
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "images/4e2acfcbee8f973715f9a1292eb8d65ffa967ebad046ea7fe8f6d00784575fc8.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "说明：中止院校专业操作的定校书不需要重新提交审核。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "十一、LiSA服务端 （新CRM）：教育顾问在定校时如何新建专业",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "教育顾问在为客户登记学校专业，发现该院校没有对应的专业时，可直接为该院校新建 专业。但新建的专业需要经过专业库维护员审核后才可使用。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "1、用户在为定校书登记学校的页面，点击“新建专业”按钮，如下图；",
+        "page_idx": 21
+    },
+    {
+        "type": "image",
+        "img_path": "images/1b082fdd21bd7a395daaa84dab32ebd512f65aa1d1147865ae8fb44fa874a946.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "十一、LiSA服务端（新CRM）：教育顾问在定校时如何新建专业",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "2、系统进入“新建专业”页面，即可填写新专业的信息，如下图；  \n说明:带\\*号字段为必填字段。",
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/9e05bfcada25fd7fa611c355cbabccbc3c1ba068e454874184ef1dafa1092447.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "3、保存后，新建专业自动提交给“专业库维护人员”审核，并弹出如下图的提示确认框。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "说明：审核通过后，该专业才可正常使用。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "新增专业已提交专业维护人员审核，并已通过企业微信通知审核人。审核通过您将收到企业微信通知，并可选择此专业！",
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/05be4d21a1b9e8080abd23a9d1009dabda24d144b886d22e08e6caa833da1141.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "十二、LiSA服务端 （新CRM）：定校书自动引入说明",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "定校书自动引入条件：",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "1、定校书已上传扫描件；  \n2、定校书中院校专业的转案必填信息已完成填写；  \n3、合同已启动分配；",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "十三、LiSA服务端（新CRM）：分公司出纳如何审核定校书扫描件",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "操作说明：",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "1、分公司出纳点击菜单“待办—定校书”，查找到需要审核的数据点击“办理”；",
+        "page_idx": 24
+    },
+    {
+        "type": "image",
+        "img_path": "images/06c547155d4548a648497ed0ec52b553c12ff8dc2c343a53c15a1eb8250f2089.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "2、核对定校书信息后，点击“审核通过”，即可完成。",
+        "page_idx": 24
+    },
+    {
+        "type": "image",
+        "img_path": "images/a487d1f5d53356fb0bdedd590bca7126a4f5ee88b5e0f3bb1658a3499d66e53d.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "THANKS! ",
+        "text_level": 1,
+        "page_idx": 25
+    }
+]

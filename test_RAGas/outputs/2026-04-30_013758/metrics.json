@@ -1,0 +1,114 @@
+{
+  "summary": {
+    "faithfulness": {
+      "mean": 0.0,
+      "std": 0.0,
+      "p50": 0.0,
+      "p90": 0.0
+    },
+    "answer_relevancy": {
+      "mean": 0.3492689259109585,
+      "std": 0.20535207033092612,
+      "p50": 0.44129308986840604,
+      "p90": 0.5393542151369599
+    },
+    "context_precision": {
+      "mean": 0.39999999996,
+      "std": 0.48989794850764584,
+      "p50": 0.0,
+      "p90": 0.9999999999
+    },
+    "context_recall": {
+      "mean": 0.4,
+      "std": 0.48989794855663565,
+      "p50": 0.0,
+      "p90": 1.0
+    },
+    "answer_correctness": {
+      "mean": 0.12251905719420367,
+      "std": 0.05985968375428176,
+      "p50": 0.13489295706113594,
+      "p90": 0.17788615908568747
+    },
+    "answer_similarity": {
+      "mean": 0.49007622877681467,
+      "std": 0.23943873501712704,
+      "p50": 0.5395718282445437,
+      "p90": 0.7115446363427499
+    }
+  },
+  "by_category": {
+    "事实问答": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "answer_correctness": 0.014368538700893956,
+      "answer_similarity": 0.05747415480357582
+    },
+    "故障处理": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.5821557674761918,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.0,
+      "answer_correctness": 0.18363125574419908,
+      "answer_similarity": 0.7345250229767963
+    },
+    "流程问答": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.3880629540262002,
+      "context_precision": 0.3333333333,
+      "context_recall": 0.3333333333333333,
+      "answer_correctness": 0.13819849717530844,
+      "answer_similarity": 0.5527939887012338
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.22064654493420302,
+      "context_precision": 0.0,
+      "context_recall": 0.5,
+      "answer_correctness": 0.062401279533881616,
+      "answer_similarity": 0.24960511813552647
+    },
+    "hard": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.475151886628112,
+      "context_precision": 0.9999999999,
+      "context_recall": 0.0,
+      "answer_correctness": 0.16926851409792007,
+      "answer_similarity": 0.6770740563916803
+    },
+    "medium": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.41494982652913726,
+      "context_precision": 0.49999999995,
+      "context_recall": 0.5,
+      "answer_correctness": 0.15926210640266752,
+      "answer_similarity": 0.6370484256106701
+    }
+  },
+  "threshold_check": {
+    "faithfulness": {
+      "threshold": 0.75,
+      "mean": 0.0,
+      "pass": false
+    },
+    "answer_relevancy": {
+      "threshold": 0.8,
+      "mean": 0.3492689259109585,
+      "pass": false
+    },
+    "context_precision": {
+      "threshold": 0.7,
+      "mean": 0.39999999996,
+      "pass": false
+    },
+    "context_recall": {
+      "threshold": 0.7,
+      "mean": 0.4,
+      "pass": false
+    }
+  }
+}

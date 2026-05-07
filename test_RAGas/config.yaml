@@ -1,0 +1,58 @@
+run:
+  dataset_path: "./eval_dataset_template.csv"
+  output_dir: "./outputs"
+  mode: "api" # mock | api
+  eval_profile: "fast_eval" # fast_eval | full_eval
+  enable_ragas: true
+  # RAGAS 失败时是否降级为随机 baseline（仅用于联调流程；分数与答案对错无关）
+  allow_baseline_fallback: true
+  random_seed: 42
+
+# RAGAS 0.4+ 在未传入 llm/embeddings 时会默认调用 OpenAI()，必须配置评测用模型。
+# 与「被测客服接口」无关：这是给 RAGAS 当裁判用的 LLM。
+ragas:
+  judge:
+    provider: "dashscope" # openai | dashscope
+    llm_model: "qwen-turbo"
+    embedding_model: "text-embedding-v1"
+    api_key: "sk-55d06e419aee4988944256ed77feef5e" # 可选；优先使用环境变量 DASHSCOPE_API_KEY / OPENAI_API_KEY
+
+api:
+  url: "http://192.168.40.197:9001/api/message/stream"
+  method: "POST"
+  timeout_sec: 20
+  retries: 2
+  response_format: "ndjson" # ndjson | json
+  headers:
+    Content-Type: "application/json"
+    Accept: "application/x-ndjson"
+  question_field: "message"
+  response_answer_field: "answer"
+  response_contexts_field: "contexts"
+  extra_payload:
+    stream: true
+
+evaluation_profiles:
+  fast_eval:
+    metrics:
+      - answer_correctness
+      - answer_relevancy
+    thresholds:
+      answer_correctness: 0.65
+      answer_relevancy: 0.75
+
+  full_eval:
+    metrics:
+      - faithfulness
+      - answer_relevancy
+      - context_precision
+      - context_recall
+      - answer_correctness
+      - answer_similarity
+    thresholds:
+      faithfulness: 0.75
+      answer_relevancy: 0.80
+      context_precision: 0.70
+      context_recall: 0.70
+      answer_correctness: 0.70
+      answer_similarity: 0.75

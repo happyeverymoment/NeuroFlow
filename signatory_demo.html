@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>签约前两步 Demo - 获取 Token → 校验用户权限</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 560px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 24px;
+            text-align: center;
+        }
+        .header h1 { font-size: 22px; margin-bottom: 8px; }
+        .header p { font-size: 13px; opacity: 0.95; }
+        .content { padding: 24px; }
+        .field {
+            margin-bottom: 16px;
+        }
+        .field label {
+            display: block;
+            margin-bottom: 6px;
+            color: #333;
+            font-size: 14px;
+        }
+        .field input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .field input:focus {
+            outline: none;
+            border-color: #f5576c;
+        }
+        .hint {
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+        }
+        .btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(245, 87, 108, 0.4);
+        }
+        .btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 16px;
+            border-radius: 10px;
+            border-left: 4px solid #f5576c;
+            background: #fafafa;
+            display: none;
+        }
+        .result.show { display: block; }
+        .result.success { border-left-color: #22c55e; background: #f0fdf4; }
+        .result.error { border-left-color: #ef4444; background: #fef2f2; }
+        .result h3 { font-size: 14px; color: #666; margin-bottom: 10px; }
+        .result-row { margin-bottom: 8px; font-size: 15px; }
+        .result-row strong { display: inline-block; width: 64px; color: #333; }
+        .result .err-msg { color: #dc2626; margin-top: 8px; }
+        .steps-hint { font-size: 12px; color: #666; margin-top: 8px; }
+        .back-link {
+            display: inline-block;
+            margin-top: 16px;
+            color: #f5576c;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>签约前两步 Demo</h1>
+            <p>参考 signatory 文件夹：获取 Token → 校验用户权限 → 输出姓名、职位</p>
+        </div>
+        <div class="content">
+            <p class="hint" style="margin-bottom: 12px;">Token 请求（步骤1）使用以下账号密码，不填则使用服务端配置默认值。</p>
+            <div class="field">
+                <label>Token 用户名 (username)</label>
+                <input type="text" id="username" placeholder="eicintegration@eiceducation.com.cn.staging" autocomplete="username">
+                <div class="hint">用于请求 /services/oauth2/token 的 username 参数</div>
+            </div>
+            <div class="field">
+                <label>Token 密码 (password)</label>
+                <input type="password" id="password" placeholder="不填则使用配置默认密码" autocomplete="current-password">
+                <div class="hint">用于请求 Token 的 password 参数</div>
+            </div>
+            <div class="field">
+                <label>校验用户名（可选）</label>
+                <input type="text" id="checkUsername" placeholder="不填则与 Token 用户名一致，用于步骤2 权限查询">
+                <div class="hint">步骤2 要校验的 Salesforce 用户名</div>
+            </div>
+            <button class="btn" id="runBtn" onclick="runSteps()">执行签约前两步</button>
+
+            <div id="resultBox" class="result">
+                <h3 id="resultTitle">执行结果</h3>
+                <div id="resultBody"></div>
+                <div id="stepHint" class="steps-hint"></div>
+                <div id="errMsg" class="err-msg"></div>
+            </div>
+
+            <a href="/" class="back-link">← 返回意图识别</a>
+        </div>
+    </div>
+    <script>
+        async function runSteps() {
+            const btn = document.getElementById('runBtn');
+            const box = document.getElementById('resultBox');
+            const body = document.getElementById('resultBody');
+            const stepHint = document.getElementById('stepHint');
+            const errMsg = document.getElementById('errMsg');
+            const username = document.getElementById('username').value.trim() || null;
+            const password = document.getElementById('password').value;
+            const checkUsername = document.getElementById('checkUsername').value.trim() || null;
+
+            btn.disabled = true;
+            box.classList.remove('show', 'success', 'error');
+            body.innerHTML = '';
+            stepHint.textContent = '';
+            errMsg.textContent = '';
+
+            try {
+                const response = await fetch('/api/signatory/run-steps', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        username: username || undefined,
+                        password: password || undefined,
+                        check_username: checkUsername || undefined
+                    })
+                });
+                const data = await response.json();
+                box.classList.add('show');
+
+                if (data.success) {
+                    box.classList.add('success');
+                    body.innerHTML = `
+                        <div class="result-row"><strong>姓名</strong> ${escapeHtml(data.姓名 || '—')}</div>
+                        <div class="result-row"><strong>职位</strong> ${escapeHtml(data.职位 || '—')}</div>
+                    `;
+                    stepHint.textContent = '步骤1：Token 获取成功 ✓  步骤2：权限校验通过 ✓';
+                } else {
+                    box.classList.add('error');
+                    body.innerHTML = `
+                        <div class="result-row"><strong>姓名</strong> ${escapeHtml(data.姓名 || '—')}</div>
+                        <div class="result-row"><strong>职位</strong> ${escapeHtml(data.职位 || '—')}</div>
+                    `;
+                    stepHint.textContent = `步骤1：${data.step1_ok ? '成功' : '失败'}  步骤2：${data.step2_ok ? '通过' : '未通过'}`;
+                    if (data.error) errMsg.textContent = data.error;
+                }
+            } catch (e) {
+                box.classList.add('show', 'error');
+                body.textContent = '请求失败';
+                errMsg.textContent = e.message || String(e);
+            } finally {
+                btn.disabled = false;
+            }
+        }
+
+        function escapeHtml(s) {
+            const div = document.createElement('div');
+            div.textContent = s;
+            return div.innerHTML;
+        }
+
+        // 从意图识别跳转带 ?q= 时仅作展示
+        (function() {
+            const q = new URLSearchParams(window.location.search).get('q');
+            if (q) document.getElementById('checkUsername').placeholder = '来自意图：' + decodeURIComponent(q) + '（可选）';
+        })();
+    </script>
+</body>
+</html>
