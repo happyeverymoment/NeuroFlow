@@ -91,7 +91,10 @@ Trained models and logs are stored under `Task1/outputs/` organized by experimen
 - Training details (batch size, optimizer, learning rate schedules) are defined inside each task script and configurable at the files.
 - Seed and dataset splits: leave-one-subject-out configuration is implemented in `Task1/eegdatasets_leaveone.py` and `Task2/eegdatasets_leaveone.py`.
 
-
+## Acknowledge
+Thanks to Li Dongyang et al. for their contribution in data set preprocessing and neural network structure(https://github.com/ncclab-sustech/EEG_Image_decode), we refer to their work:
+"Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion".
+Li, Dongyang and Wei, Chen and Li, Shiying and Zou, Jiachen and Liu, Quanying.
 
 
 
